@@ -13,7 +13,7 @@ function draw() {
 	frameRate(120)
 	point(0,10)
 	point(875,10)
-	point(341,758)
+	point(437,758)
 	stroke('white')
 	strokeWeight(2);
 	if(target == 1){
