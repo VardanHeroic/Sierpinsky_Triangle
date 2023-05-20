@@ -27,7 +27,7 @@ function draw() {
 		point(x,y)
 	}
 	else if(target == 0){
-		x = (x+341)/2
+		x = (x+437)/2
 		y = (y+758)/2
 		point(x,y)
 	}
