@@ -1,5 +1,5 @@
 function setup() {
-	createCanvas(683, 768);
+	createCanvas(746, 768);
 	fill(228)
 	rect(225,255,90,90)
 	background(0)
@@ -12,7 +12,7 @@ function setup() {
 function draw() {
 	frameRate(120)
 	point(0,10)
-	point(683,10)
+	point(746,10)
 	point(341,673)
 	stroke('white')
 	strokeWeight(2);
@@ -22,7 +22,7 @@ function draw() {
 		point(x,y)
 	}
 	else if(target == 2){
-		x = (x+683)/2
+		x = (x+746)/2
 		y = (y+10)/2
 		point(x,y)
 	}
