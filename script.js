@@ -11,13 +11,13 @@ function setup() {
 
 function draw() {
 	frameRate(120)
-	point(10,10)
+	point(0,10)
 	point(768,10)
-	point(384,768)
+	point(384,758)
 	stroke('white')
 	strokeWeight(2);
 	if(target == 1){
-		x = (x+10)/2
+		x = (x+0)/2
 		y = (y+10)/2
 		point(x,y)
 	}
@@ -28,7 +28,7 @@ function draw() {
 	}
 	else if(target == 0){
 		x = (x+384)/2
-		y = (y+768)/2
+		y = (y+758)/2
 		point(x,y)
 	}
 	target = Math.floor(random(0,3))		
