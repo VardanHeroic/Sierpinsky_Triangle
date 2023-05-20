@@ -11,24 +11,24 @@ function setup() {
 
 function draw() {
 	frameRate(120)
-	point(0,10)
-	point(875,10)
-	point(437,758)
+	point(0,758)
+	point(875,758)
+	point(437,10)
 	stroke('white')
 	strokeWeight(2);
 	if(target == 1){
 		x = (x+0)/2
-		y = (y+10)/2
+		y = (y+758)/2
 		point(x,y)
 	}
 	else if(target == 2){
 		x = (x+875)/2
-		y = (y+10)/2
+		y = (y+758)/2
 		point(x,y)
 	}
 	else if(target == 0){
 		x = (x+437)/2
-		y = (y+758)/2
+		y = (y+10)/2
 		point(x,y)
 	}
 	target = Math.floor(random(0,3))		
