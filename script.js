@@ -4,10 +4,10 @@ function setup() {
 	rect(225,255,90,90)
 	background(0)
 }
-	let x =	Math.random() * 399
-	let y = Math.random() * 399	
-	let target = Math.floor(Math.random() * 3)
 
+let x =	Math.random() * 399
+let y = Math.random() * 399	
+let target = Math.floor(Math.random() * 3)
 
 function draw() {
 	frameRate(120)
@@ -16,6 +16,7 @@ function draw() {
 	point(437,10)
 	stroke('white')
 	strokeWeight(2);
+	
 	if(target == 1){
 		x = (x+0)/2
 		y = (y+758)/2
@@ -31,13 +32,6 @@ function draw() {
 		y = (y+10)/2
 		point(x,y)
 	}
+	
 	target = Math.floor(random(0,3))		
 }
-
-
-
-function mousePressed() {
-  redraw();
-}
-
-
